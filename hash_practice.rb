@@ -11,4 +11,11 @@ puts person.first
 # on a line below it.
 # We were expecting this to look like:
 # "name" => "George"
-# We are both going to work on this :) (>.<) 
+# We are both going to work on this :) (>.<)
+person["crap"] = 2
+puts person
+
+person["employed"] = true
+puts person
+
+puts person.keys
